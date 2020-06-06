@@ -1,0 +1,17 @@
+{
+  "name": "aircraftpart_erc721token",
+  "version": "1.0.0",
+  "description": "ERC-721 Token for Aircraft Parts; From Manufacture to Scrap",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "NLM UA-Systems",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.6"
+  }
+}
