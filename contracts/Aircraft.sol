@@ -1,10 +1,15 @@
-pragma solidity ^0.5.7;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.2;
 //pragma experimental ABIEncoderV2;
 
 import './ERC721Token.sol';
+import '@openzeppelin/contracts/math/SafeMath.sol';
 
 contract Aircraft is ERC721Token {
     
+    using SafeMath for uint;
+       
+
     struct Part {
     uint id;
     string basePN;
@@ -17,6 +22,7 @@ contract Aircraft is ERC721Token {
   mapping(uint => Part) public parts;
   uint public nextId;
   address public admin;
+
   
   constructor(
         string memory _tokenURIBase
