@@ -12,7 +12,7 @@
   "author": "NLM UA-Systems",
   "license": "ISC",
   "devDependencies": {
-    "@openzeppelin/contracts": "^3.0.1",
+    "@openzeppelin/contracts": "^4.7.2",
     "@openzeppelin/test-helpers": "^0.5.6"
   }
 }
